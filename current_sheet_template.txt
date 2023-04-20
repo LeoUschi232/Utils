@@ -1,0 +1,182 @@
+\documentclass[10pt,a4paper]{scrartcl}
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{blindtext}
+\usepackage{braket}
+\usepackage{caption}
+\usepackage{chemfig}
+\usepackage{csquotes}
+\usepackage{enumitem}
+\usepackage{esint}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{parskip}
+\usepackage{setspace}
+\usepackage{subcaption}
+\usepackage{todonotes}
+\usepackage{url}
+\usepackage{xfp}
+
+\usepackage[english]{babel}
+\usepackage[native=true,style=numeric,sorting=none]{biblatex}
+\usepackage[T1]{fontenc}
+\usepackage[colorlinks, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2.3cm]{geometry}
+\usepackage[document]{ragged2e}
+
+\onehalfspacing
+\setlength{\parindent}{0em}
+
+\captionsetup[table]{position=above, skip=0cm}
+\captionsetup[figure]{position=below, skip=5cm}
+\captionsetup[figure]{position=above, skip=0cm}
+
+\DeclareMathOperator{\tacticalAnd}{\qquad\wedge\qquad}
+\DeclareMathOperator{\ontop}{\mathrel{\stackrel}}
+\DeclareMathOperator{\equivalent}{\qquad\Longleftrightarrow\qquad}
+\DeclareMathOperator{\means}{\qquad\Longrightarrow\qquad}
+\DeclareMathOperator{\E}{\mathcal{E}}
+
+
+\title{\textbf{Quantum Mechanics} \\ \vspace{5pt} \large TUM Physics \\ QM Sheet 1}
+\author{Leonard Uscinowicz}
+
+\begin{document}
+
+\justifying
+\maketitle
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{QMSheet1Exc1a}
+    \caption{QMSheet1Exc1a}
+    \label{fig:QMSheet1Exc1a}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{QMSheet1Exc1b}
+    \caption{QMSheet1Exc1b}
+    \label{fig:QMSheet1Exc1b}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{QMSheet1Exc1c}
+    \caption{QMSheet1Exc1c}
+    \label{fig:QMSheet1Exc1c}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{QMSheet1Exc1d}
+    \caption{QMSheet1Exc1d}
+    \label{fig:QMSheet1Exc1d}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{QMSheet1Exc1e}
+    \caption{QMSheet1Exc1e}
+    \label{fig:QMSheet1Exc1e}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{QMSheet1Exc2a}
+    \caption{QMSheet1Exc2a}
+    \label{fig:QMSheet1Exc2a}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{QMSheet1Exc2b}
+    \caption{QMSheet1Exc2b}
+    \label{fig:QMSheet1Exc2b}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{QMSheet1Exc3}
+    \caption{QMSheet1Exc3}
+    \label{fig:QMSheet1Exc3}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\end{document}
