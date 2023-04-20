@@ -34,7 +34,6 @@ with open("current_sheet_template.txt", "w") as file:
         "\\usepackage{xfp}\n"
         "\n"
         "\\usepackage[english]{babel}\n"
-        "\\usepackage[native=true,style=numeric,sorting=none]{biblatex}\n"
         "\\usepackage[T1]{fontenc}\n"
         "\\usepackage[colorlinks, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}\n"
         "\\usepackage[utf8]{inputenc}\n"
