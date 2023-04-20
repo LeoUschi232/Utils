@@ -2,7 +2,7 @@ from subjects import Subject
 
 subject = Subject.QM
 sheet = 1
-scale = 0.45
+scale = 0.42
 number_of_empty_lines = 10
 exercises = [
     "1a", "1b", "1c", "1d", "1e", "2a", "2b", "3"
@@ -51,6 +51,8 @@ with open("current_sheet_template.txt", "w") as file:
         "\\DeclareMathOperator{\\ontop}{\\mathrel{\\stackrel}}\n"
         "\\DeclareMathOperator{\\equivalent}{\\qquad\\Longleftrightarrow\\qquad}\n"
         "\\DeclareMathOperator{\\means}{\\qquad\\Longrightarrow\\qquad}\n"
+        "\\DeclareMathOperator{\\real}{\mathbb{R}}\n"
+        "\\DeclareMathOperator{\\natural}{\mathbb{N}}\n"
         "\\DeclareMathOperator{\\E}{\\mathcal{E}}\n"
         "\n"
         "\n"

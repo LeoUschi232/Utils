@@ -22,7 +22,6 @@
 \usepackage{xfp}
 
 \usepackage[english]{babel}
-\usepackage[native=true,style=numeric,sorting=none]{biblatex}
 \usepackage[T1]{fontenc}
 \usepackage[colorlinks, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}
 \usepackage[utf8]{inputenc}
@@ -53,7 +52,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet1Exc1a}
+    \includegraphics[scale=0.42]{QMSheet1Exc1a}
     \caption{QMSheet1Exc1a}
     \label{fig:QMSheet1Exc1a}
 \end{figure}
@@ -69,7 +68,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet1Exc1b}
+    \includegraphics[scale=0.42]{QMSheet1Exc1b}
     \caption{QMSheet1Exc1b}
     \label{fig:QMSheet1Exc1b}
 \end{figure}
@@ -85,7 +84,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet1Exc1c}
+    \includegraphics[scale=0.42]{QMSheet1Exc1c}
     \caption{QMSheet1Exc1c}
     \label{fig:QMSheet1Exc1c}
 \end{figure}
@@ -101,7 +100,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet1Exc1d}
+    \includegraphics[scale=0.42]{QMSheet1Exc1d}
     \caption{QMSheet1Exc1d}
     \label{fig:QMSheet1Exc1d}
 \end{figure}
@@ -117,7 +116,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet1Exc1e}
+    \includegraphics[scale=0.42]{QMSheet1Exc1e}
     \caption{QMSheet1Exc1e}
     \label{fig:QMSheet1Exc1e}
 \end{figure}
@@ -133,7 +132,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet1Exc2a}
+    \includegraphics[scale=0.42]{QMSheet1Exc2a}
     \caption{QMSheet1Exc2a}
     \label{fig:QMSheet1Exc2a}
 \end{figure}
@@ -149,7 +148,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet1Exc2b}
+    \includegraphics[scale=0.42]{QMSheet1Exc2b}
     \caption{QMSheet1Exc2b}
     \label{fig:QMSheet1Exc2b}
 \end{figure}
@@ -165,7 +164,7 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet1Exc3}
+    \includegraphics[scale=0.42]{QMSheet1Exc3}
     \caption{QMSheet1Exc3}
     \label{fig:QMSheet1Exc3}
 \end{figure}
