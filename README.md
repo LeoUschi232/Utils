@@ -17,6 +17,3 @@ Runnning python `sheet_template_creator.py will generate a `current_sheet_templa
 
 If you'd like to contribute to this project, please feel free to submit a pull request or open an issue for discussion.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
