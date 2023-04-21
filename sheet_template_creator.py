@@ -1,11 +1,11 @@
 from subjects import Subject
 
-subject = Subject.QM
+subject = Subject.MAT
 sheet = 1
-scale = 0.42
+scale = 0.4
 number_of_empty_lines = 10
 exercises = [
-    "1a", "1b", "1c", "1d", "1e", "2a", "2b", "3"
+    "1", "2a", "2b", "2c", "3a", "3b", "4a", "4b", "4c", "5a", "5b"
 ]
 
 with open("current_sheet_template.txt", "w") as file:

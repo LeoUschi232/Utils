@@ -39,10 +39,12 @@
 \DeclareMathOperator{\ontop}{\mathrel{\stackrel}}
 \DeclareMathOperator{\equivalent}{\qquad\Longleftrightarrow\qquad}
 \DeclareMathOperator{\means}{\qquad\Longrightarrow\qquad}
+\DeclareMathOperator{\real}{\mathbb{R}}
+\DeclareMathOperator{\natural}{\mathbb{N}}
 \DeclareMathOperator{\E}{\mathcal{E}}
 
 
-\title{\textbf{Quantum Mechanics} \\ \vspace{5pt} \large TUM Physics \\ QM Sheet 1}
+\title{\textbf{Material Science} \\ \vspace{5pt} \large TUM Physics \\ MAT Sheet 1}
 \author{Leonard Uscinowicz}
 
 \begin{document}
@@ -52,9 +54,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.42]{QMSheet1Exc1a}
-    \caption{QMSheet1Exc1a}
-    \label{fig:QMSheet1Exc1a}
+    \includegraphics[scale=0.4]{MATSheet1Exc1}
+    \caption{MATSheet1Exc1}
+    \label{fig:MATSheet1Exc1}
 \end{figure}
 
 
@@ -68,9 +70,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.42]{QMSheet1Exc1b}
-    \caption{QMSheet1Exc1b}
-    \label{fig:QMSheet1Exc1b}
+    \includegraphics[scale=0.4]{MATSheet1Exc2a}
+    \caption{MATSheet1Exc2a}
+    \label{fig:MATSheet1Exc2a}
 \end{figure}
 
 
@@ -84,9 +86,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.42]{QMSheet1Exc1c}
-    \caption{QMSheet1Exc1c}
-    \label{fig:QMSheet1Exc1c}
+    \includegraphics[scale=0.4]{MATSheet1Exc2b}
+    \caption{MATSheet1Exc2b}
+    \label{fig:MATSheet1Exc2b}
 \end{figure}
 
 
@@ -100,9 +102,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.42]{QMSheet1Exc1d}
-    \caption{QMSheet1Exc1d}
-    \label{fig:QMSheet1Exc1d}
+    \includegraphics[scale=0.4]{MATSheet1Exc2c}
+    \caption{MATSheet1Exc2c}
+    \label{fig:MATSheet1Exc2c}
 \end{figure}
 
 
@@ -116,9 +118,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.42]{QMSheet1Exc1e}
-    \caption{QMSheet1Exc1e}
-    \label{fig:QMSheet1Exc1e}
+    \includegraphics[scale=0.4]{MATSheet1Exc3a}
+    \caption{MATSheet1Exc3a}
+    \label{fig:MATSheet1Exc3a}
 \end{figure}
 
 
@@ -132,9 +134,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.42]{QMSheet1Exc2a}
-    \caption{QMSheet1Exc2a}
-    \label{fig:QMSheet1Exc2a}
+    \includegraphics[scale=0.4]{MATSheet1Exc3b}
+    \caption{MATSheet1Exc3b}
+    \label{fig:MATSheet1Exc3b}
 \end{figure}
 
 
@@ -148,9 +150,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.42]{QMSheet1Exc2b}
-    \caption{QMSheet1Exc2b}
-    \label{fig:QMSheet1Exc2b}
+    \includegraphics[scale=0.4]{MATSheet1Exc4a}
+    \caption{MATSheet1Exc4a}
+    \label{fig:MATSheet1Exc4a}
 \end{figure}
 
 
@@ -164,9 +166,57 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.42]{QMSheet1Exc3}
-    \caption{QMSheet1Exc3}
-    \label{fig:QMSheet1Exc3}
+    \includegraphics[scale=0.4]{MATSheet1Exc4b}
+    \caption{MATSheet1Exc4b}
+    \label{fig:MATSheet1Exc4b}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{MATSheet1Exc4c}
+    \caption{MATSheet1Exc4c}
+    \label{fig:MATSheet1Exc4c}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{MATSheet1Exc5a}
+    \caption{MATSheet1Exc5a}
+    \label{fig:MATSheet1Exc5a}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{MATSheet1Exc5b}
+    \caption{MATSheet1Exc5b}
+    \label{fig:MATSheet1Exc5b}
 \end{figure}
 
 

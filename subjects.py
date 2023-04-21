@@ -3,9 +3,9 @@ from enum import Enum
 fields_and_their_subjects = {
     "Physics": {
         "QM": "Quantum Mechanics",
-        "AT": "Atomic physics and Thermodynamics",
-        "MAT": "Material science",
-        "ENE": "Energy science",
+        "AT": "Atomic Physics and Thermodynamics",
+        "MAT": "Material Science",
+        "ENE": "Energy Science",
     },
     "Informatics": {
         "FPV": "Functional Programming and Verification",
