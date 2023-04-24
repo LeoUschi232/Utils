@@ -1,11 +1,11 @@
 from subjects import Subject
 
-subject = Subject.MAT
+subject = Subject.DWT
 sheet = 1
-scale = 0.4
+scale = 0.45
 number_of_empty_lines = 10
 exercises = [
-    "1", "2a", "2b", "2c", "3a", "3b", "4a", "4b", "4c", "5a", "5b"
+    "T1", "T2", "T3a", "T3b", "T3c", "H1a", "H1b", "H2", "H3", "H4"
 ]
 
 with open("current_sheet_template.txt", "w") as file:
@@ -20,7 +20,6 @@ with open("current_sheet_template.txt", "w") as file:
         "\\usepackage{braket}\n"
         "\\usepackage{caption}\n"
         "\\usepackage{chemfig}\n"
-        "\\usepackage{chemdraw}\n"
         "\\usepackage{csquotes}\n"
         "\\usepackage{enumitem}\n"
         "\\usepackage{esint}\n"
@@ -28,6 +27,7 @@ with open("current_sheet_template.txt", "w") as file:
         "\\usepackage{graphicx}\n"
         "\\usepackage{mathtools}\n"
         "\\usepackage{parskip}\n"
+        "\\usepackage{relsize}\n"
         "\\usepackage{setspace}\n"
         "\\usepackage{subcaption}\n"
         "\\usepackage{todonotes}\n"

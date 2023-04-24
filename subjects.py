@@ -3,12 +3,13 @@ from enum import Enum
 fields_and_their_subjects = {
     "Physics": {
         "QM": "Quantum Mechanics",
-        "AT": "Atomic Physics and Thermodynamics",
+        "ATM": "Atomic Physics and Thermodynamics",
         "MAT": "Material Science",
         "ENE": "Energy Science",
     },
     "Informatics": {
         "FPV": "Functional Programming and Verification",
+        "DWT": "Discrete Probability Theory"
     }
 }
 
@@ -16,9 +17,10 @@ fields_and_their_subjects = {
 class Subject(Enum):
     QM = "QM"
     FPV = "FPV"
-    AT = "AT"
+    AT = "ATM"
     MAT = "MAT"
     ENE = "ENE"
+    DWT = "DWT"
 
     @property
     def long_name(self):

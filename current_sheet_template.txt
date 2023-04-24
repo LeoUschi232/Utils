@@ -15,6 +15,7 @@
 \usepackage{graphicx}
 \usepackage{mathtools}
 \usepackage{parskip}
+\usepackage{relsize}
 \usepackage{setspace}
 \usepackage{subcaption}
 \usepackage{todonotes}
@@ -40,11 +41,11 @@
 \DeclareMathOperator{\equivalent}{\qquad\Longleftrightarrow\qquad}
 \DeclareMathOperator{\means}{\qquad\Longrightarrow\qquad}
 \DeclareMathOperator{\real}{\mathbb{R}}
-\DeclareMathOperator{\natural}{\mathbb{N}}
+\DeclareMathOperator{\natur}{\mathbb{N}}
 \DeclareMathOperator{\E}{\mathcal{E}}
 
 
-\title{\textbf{Material Science} \\ \vspace{5pt} \large TUM Physics \\ MAT Sheet 1}
+\title{\textbf{Discrete Probability Theory} \\ \vspace{5pt} \large TUM Informatics \\ DWT Sheet 1}
 \author{Leonard Uscinowicz}
 
 \begin{document}
@@ -54,9 +55,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{MATSheet1Exc1}
-    \caption{MATSheet1Exc1}
-    \label{fig:MATSheet1Exc1}
+    \includegraphics[scale=0.45]{DWTSheet1ExcT1}
+    \caption{DWTSheet1ExcT1}
+    \label{fig:DWTSheet1ExcT1}
 \end{figure}
 
 
@@ -70,9 +71,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{MATSheet1Exc2a}
-    \caption{MATSheet1Exc2a}
-    \label{fig:MATSheet1Exc2a}
+    \includegraphics[scale=0.45]{DWTSheet1ExcT2}
+    \caption{DWTSheet1ExcT2}
+    \label{fig:DWTSheet1ExcT2}
 \end{figure}
 
 
@@ -86,9 +87,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{MATSheet1Exc2b}
-    \caption{MATSheet1Exc2b}
-    \label{fig:MATSheet1Exc2b}
+    \includegraphics[scale=0.45]{DWTSheet1ExcT3a}
+    \caption{DWTSheet1ExcT3a}
+    \label{fig:DWTSheet1ExcT3a}
 \end{figure}
 
 
@@ -102,9 +103,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{MATSheet1Exc2c}
-    \caption{MATSheet1Exc2c}
-    \label{fig:MATSheet1Exc2c}
+    \includegraphics[scale=0.45]{DWTSheet1ExcT3b}
+    \caption{DWTSheet1ExcT3b}
+    \label{fig:DWTSheet1ExcT3b}
 \end{figure}
 
 
@@ -118,9 +119,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{MATSheet1Exc3a}
-    \caption{MATSheet1Exc3a}
-    \label{fig:MATSheet1Exc3a}
+    \includegraphics[scale=0.45]{DWTSheet1ExcT3c}
+    \caption{DWTSheet1ExcT3c}
+    \label{fig:DWTSheet1ExcT3c}
 \end{figure}
 
 
@@ -134,9 +135,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{MATSheet1Exc3b}
-    \caption{MATSheet1Exc3b}
-    \label{fig:MATSheet1Exc3b}
+    \includegraphics[scale=0.45]{DWTSheet1ExcH1a}
+    \caption{DWTSheet1ExcH1a}
+    \label{fig:DWTSheet1ExcH1a}
 \end{figure}
 
 
@@ -150,9 +151,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{MATSheet1Exc4a}
-    \caption{MATSheet1Exc4a}
-    \label{fig:MATSheet1Exc4a}
+    \includegraphics[scale=0.45]{DWTSheet1ExcH1b}
+    \caption{DWTSheet1ExcH1b}
+    \label{fig:DWTSheet1ExcH1b}
 \end{figure}
 
 
@@ -166,9 +167,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{MATSheet1Exc4b}
-    \caption{MATSheet1Exc4b}
-    \label{fig:MATSheet1Exc4b}
+    \includegraphics[scale=0.45]{DWTSheet1ExcH2}
+    \caption{DWTSheet1ExcH2}
+    \label{fig:DWTSheet1ExcH2}
 \end{figure}
 
 
@@ -182,9 +183,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{MATSheet1Exc4c}
-    \caption{MATSheet1Exc4c}
-    \label{fig:MATSheet1Exc4c}
+    \includegraphics[scale=0.45]{DWTSheet1ExcH3}
+    \caption{DWTSheet1ExcH3}
+    \label{fig:DWTSheet1ExcH3}
 \end{figure}
 
 
@@ -198,25 +199,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{MATSheet1Exc5a}
-    \caption{MATSheet1Exc5a}
-    \label{fig:MATSheet1Exc5a}
-\end{figure}
-
-
-
-
-
-
-
-
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.4]{MATSheet1Exc5b}
-    \caption{MATSheet1Exc5b}
-    \label{fig:MATSheet1Exc5b}
+    \includegraphics[scale=0.45]{DWTSheet1ExcH4}
+    \caption{DWTSheet1ExcH4}
+    \label{fig:DWTSheet1ExcH4}
 \end{figure}
 
 
