@@ -45,7 +45,7 @@
 \DeclareMathOperator{\E}{\mathcal{E}}
 
 
-\title{\textbf{Discrete Probability Theory} \\ \vspace{5pt} \large TUM Informatics \\ DWT Sheet 1}
+\title{\textbf{Quantum Mechanics} \\ \vspace{5pt} \large TUM Physics \\ QM Sheet 2}
 \author{Leonard Uscinowicz}
 
 \begin{document}
@@ -55,9 +55,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{DWTSheet1ExcT1}
-    \caption{DWTSheet1ExcT1}
-    \label{fig:DWTSheet1ExcT1}
+    \includegraphics[scale=0.45]{QMSheet2Exc1a}
+    \caption{QMSheet2Exc1a}
+    \label{fig:QMSheet2Exc1a}
 \end{figure}
 
 
@@ -71,9 +71,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{DWTSheet1ExcT2}
-    \caption{DWTSheet1ExcT2}
-    \label{fig:DWTSheet1ExcT2}
+    \includegraphics[scale=0.45]{QMSheet2Exc1b}
+    \caption{QMSheet2Exc1b}
+    \label{fig:QMSheet2Exc1b}
 \end{figure}
 
 
@@ -87,9 +87,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{DWTSheet1ExcT3a}
-    \caption{DWTSheet1ExcT3a}
-    \label{fig:DWTSheet1ExcT3a}
+    \includegraphics[scale=0.45]{QMSheet2Exc1c}
+    \caption{QMSheet2Exc1c}
+    \label{fig:QMSheet2Exc1c}
 \end{figure}
 
 
@@ -103,9 +103,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{DWTSheet1ExcT3b}
-    \caption{DWTSheet1ExcT3b}
-    \label{fig:DWTSheet1ExcT3b}
+    \includegraphics[scale=0.45]{QMSheet2Exc1d}
+    \caption{QMSheet2Exc1d}
+    \label{fig:QMSheet2Exc1d}
 \end{figure}
 
 
@@ -119,9 +119,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{DWTSheet1ExcT3c}
-    \caption{DWTSheet1ExcT3c}
-    \label{fig:DWTSheet1ExcT3c}
+    \includegraphics[scale=0.45]{QMSheet2Exc1e}
+    \caption{QMSheet2Exc1e}
+    \label{fig:QMSheet2Exc1e}
 \end{figure}
 
 
@@ -135,9 +135,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{DWTSheet1ExcH1a}
-    \caption{DWTSheet1ExcH1a}
-    \label{fig:DWTSheet1ExcH1a}
+    \includegraphics[scale=0.45]{QMSheet2Exc1f}
+    \caption{QMSheet2Exc1f}
+    \label{fig:QMSheet2Exc1f}
 \end{figure}
 
 
@@ -151,9 +151,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{DWTSheet1ExcH1b}
-    \caption{DWTSheet1ExcH1b}
-    \label{fig:DWTSheet1ExcH1b}
+    \includegraphics[scale=0.45]{QMSheet2Exc2a}
+    \caption{QMSheet2Exc2a}
+    \label{fig:QMSheet2Exc2a}
 \end{figure}
 
 
@@ -167,9 +167,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{DWTSheet1ExcH2}
-    \caption{DWTSheet1ExcH2}
-    \label{fig:DWTSheet1ExcH2}
+    \includegraphics[scale=0.45]{QMSheet2Exc2b}
+    \caption{QMSheet2Exc2b}
+    \label{fig:QMSheet2Exc2b}
 \end{figure}
 
 
@@ -183,25 +183,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{DWTSheet1ExcH3}
-    \caption{DWTSheet1ExcH3}
-    \label{fig:DWTSheet1ExcH3}
-\end{figure}
-
-
-
-
-
-
-
-
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.45]{DWTSheet1ExcH4}
-    \caption{DWTSheet1ExcH4}
-    \label{fig:DWTSheet1ExcH4}
+    \includegraphics[scale=0.45]{QMSheet2Exc2c}
+    \caption{QMSheet2Exc2c}
+    \label{fig:QMSheet2Exc2c}
 \end{figure}
 
 

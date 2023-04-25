@@ -1,11 +1,11 @@
 from subjects import Subject
 
-subject = Subject.DWT
-sheet = 1
+subject = Subject.QM
+sheet = 2
 scale = 0.45
 number_of_empty_lines = 10
 exercises = [
-    "T1", "T2", "T3a", "T3b", "T3c", "H1a", "H1b", "H2", "H3", "H4"
+    "1a", "1b", "1c", "1d", "1e", "1f", "2a", "2b", "2c"
 ]
 
 with open("current_sheet_template.txt", "w") as file:
@@ -25,6 +25,7 @@ with open("current_sheet_template.txt", "w") as file:
         "\\usepackage{esint}\n"
         "\\usepackage{float}\n"
         "\\usepackage{graphicx}\n"
+        "\\usepackage{listings}\n"
         "\\usepackage{mathtools}\n"
         "\\usepackage{parskip}\n"
         "\\usepackage{relsize}\n"
@@ -32,6 +33,7 @@ with open("current_sheet_template.txt", "w") as file:
         "\\usepackage{subcaption}\n"
         "\\usepackage{todonotes}\n"
         "\\usepackage{url}\n"
+        "\\usepackage{xcolor}\n"
         "\\usepackage{xfp}\n"
         "\n"
         "\\usepackage[english]{babel}\n"
@@ -56,7 +58,23 @@ with open("current_sheet_template.txt", "w") as file:
         "\\DeclareMathOperator{\\natur}{\mathbb{N}}\n"
         "\\DeclareMathOperator{\\E}{\\mathcal{E}}\n"
         "\n"
-        "\n"
+        "\n\lstset{\n"
+        "    language=Python,\n"
+        "    basicstyle=\\ttfamily\small,\n"
+        "    keywordstyle=\color{blue},\n"
+        "    stringstyle=\color{red},\n"
+        "    commentstyle=\color{green!70!black},\n"
+        "    numbers=left,\n"
+        "    numberstyle=\\tiny\color{gray},\n"
+        "    frame=single,\n"
+        "    showstringspaces=false,\n"
+        "    tabsize=4,\n"
+        "    captionpos=b,\n"
+        "    breaklines=true,\n"
+        "    breakatwhitespace=true,\n"
+        "    escapeinside={(*@}{@*)}\n"
+        "}\n"
+        "\n"        
         "\\title{\\textbf{"
         f"{subject.long_name}"
         "} \\\\ \\vspace{5pt} \\large TUM "
