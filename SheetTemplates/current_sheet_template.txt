@@ -13,6 +13,7 @@
 \usepackage{esint}
 \usepackage{float}
 \usepackage{graphicx}
+\usepackage{listings}
 \usepackage{mathtools}
 \usepackage{parskip}
 \usepackage{relsize}
@@ -20,6 +21,7 @@
 \usepackage{subcaption}
 \usepackage{todonotes}
 \usepackage{url}
+\usepackage{xcolor}
 \usepackage{xfp}
 
 \usepackage[english]{babel}
@@ -45,7 +47,24 @@
 \DeclareMathOperator{\E}{\mathcal{E}}
 
 
-\title{\textbf{Quantum Mechanics} \\ \vspace{5pt} \large TUM Physics \\ QM Sheet 2}
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue},
+    stringstyle=\color{red},
+    commentstyle=\color{green!70!black},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    frame=single,
+    showstringspaces=false,
+    tabsize=4,
+    captionpos=b,
+    breaklines=true,
+    breakatwhitespace=true,
+    escapeinside={(*@}{@*)}
+}
+
+\title{\textbf{Material Science} \\ \vspace{5pt} \large TUM Physics \\ MAT Sheet 2}
 \author{Leonard Uscinowicz}
 
 \begin{document}
@@ -55,9 +74,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet2Exc1a}
-    \caption{QMSheet2Exc1a}
-    \label{fig:QMSheet2Exc1a}
+    \includegraphics[scale=0.45]{MATSheet2Exc1a}
+    \caption{MATSheet2Exc1a}
+    \label{fig:MATSheet2Exc1a}
 \end{figure}
 
 
@@ -71,9 +90,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet2Exc1b}
-    \caption{QMSheet2Exc1b}
-    \label{fig:QMSheet2Exc1b}
+    \includegraphics[scale=0.45]{MATSheet2Exc1b}
+    \caption{MATSheet2Exc1b}
+    \label{fig:MATSheet2Exc1b}
 \end{figure}
 
 
@@ -87,9 +106,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet2Exc1c}
-    \caption{QMSheet2Exc1c}
-    \label{fig:QMSheet2Exc1c}
+    \includegraphics[scale=0.45]{MATSheet2Exc1c}
+    \caption{MATSheet2Exc1c}
+    \label{fig:MATSheet2Exc1c}
 \end{figure}
 
 
@@ -103,9 +122,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet2Exc1d}
-    \caption{QMSheet2Exc1d}
-    \label{fig:QMSheet2Exc1d}
+    \includegraphics[scale=0.45]{MATSheet2Exc2a}
+    \caption{MATSheet2Exc2a}
+    \label{fig:MATSheet2Exc2a}
 \end{figure}
 
 
@@ -119,9 +138,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet2Exc1e}
-    \caption{QMSheet2Exc1e}
-    \label{fig:QMSheet2Exc1e}
+    \includegraphics[scale=0.45]{MATSheet2Exc2b}
+    \caption{MATSheet2Exc2b}
+    \label{fig:MATSheet2Exc2b}
 \end{figure}
 
 
@@ -135,9 +154,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet2Exc1f}
-    \caption{QMSheet2Exc1f}
-    \label{fig:QMSheet2Exc1f}
+    \includegraphics[scale=0.45]{MATSheet2Exc3}
+    \caption{MATSheet2Exc3}
+    \label{fig:MATSheet2Exc3}
 \end{figure}
 
 
@@ -151,9 +170,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet2Exc2a}
-    \caption{QMSheet2Exc2a}
-    \label{fig:QMSheet2Exc2a}
+    \includegraphics[scale=0.45]{MATSheet2Exc4a}
+    \caption{MATSheet2Exc4a}
+    \label{fig:MATSheet2Exc4a}
 \end{figure}
 
 
@@ -167,9 +186,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet2Exc2b}
-    \caption{QMSheet2Exc2b}
-    \label{fig:QMSheet2Exc2b}
+    \includegraphics[scale=0.45]{MATSheet2Exc4b}
+    \caption{MATSheet2Exc4b}
+    \label{fig:MATSheet2Exc4b}
 \end{figure}
 
 
@@ -183,9 +202,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet2Exc2c}
-    \caption{QMSheet2Exc2c}
-    \label{fig:QMSheet2Exc2c}
+    \includegraphics[scale=0.45]{MATSheet2Exc5}
+    \caption{MATSheet2Exc5}
+    \label{fig:MATSheet2Exc5}
 \end{figure}
 
 

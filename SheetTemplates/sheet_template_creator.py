@@ -1,14 +1,14 @@
 from subjects import Subject
 
-subject = Subject.QM
+subject = Subject.MAT
 sheet = 2
 scale = 0.45
 number_of_empty_lines = 10
 exercises = [
-    "1a", "1b", "1c", "1d", "1e", "1f", "2a", "2b", "2c"
+    "1a", "1b", "1c", "2a", "2b", "3", "4a", "4b", "5"
 ]
 
-with open("current_sheet_template.txt", "w") as file:
+with open("./SheetTemplates/current_sheet_template.txt", "w") as file:
     header = (
         "\\documentclass[10pt,a4paper]{scrartcl}\n"
         "\n"
@@ -74,7 +74,7 @@ with open("current_sheet_template.txt", "w") as file:
         "    breakatwhitespace=true,\n"
         "    escapeinside={(*@}{@*)}\n"
         "}\n"
-        "\n"        
+        "\n"
         "\\title{\\textbf{"
         f"{subject.long_name}"
         "} \\\\ \\vspace{5pt} \\large TUM "
