@@ -64,7 +64,7 @@
     escapeinside={(*@}{@*)}
 }
 
-\title{\textbf{Material Science} \\ \vspace{5pt} \large TUM Physics \\ MAT Sheet 2}
+\title{\textbf{Quantum Mechanics} \\ \vspace{5pt} \large TUM Physics \\ QM Sheet 3}
 \author{Leonard Uscinowicz}
 
 \begin{document}
@@ -74,9 +74,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{MATSheet2Exc1a}
-    \caption{MATSheet2Exc1a}
-    \label{fig:MATSheet2Exc1a}
+    \includegraphics[scale=0.45]{QMSheet3Exc1a}
+    \caption{QMSheet3Exc1a}
+    \label{fig:QMSheet3Exc1a}
 \end{figure}
 
 
@@ -90,9 +90,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{MATSheet2Exc1b}
-    \caption{MATSheet2Exc1b}
-    \label{fig:MATSheet2Exc1b}
+    \includegraphics[scale=0.45]{QMSheet3Exc1b}
+    \caption{QMSheet3Exc1b}
+    \label{fig:QMSheet3Exc1b}
 \end{figure}
 
 
@@ -106,9 +106,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{MATSheet2Exc1c}
-    \caption{MATSheet2Exc1c}
-    \label{fig:MATSheet2Exc1c}
+    \includegraphics[scale=0.45]{QMSheet3Exc1c}
+    \caption{QMSheet3Exc1c}
+    \label{fig:QMSheet3Exc1c}
 \end{figure}
 
 
@@ -122,9 +122,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{MATSheet2Exc2a}
-    \caption{MATSheet2Exc2a}
-    \label{fig:MATSheet2Exc2a}
+    \includegraphics[scale=0.45]{QMSheet3Exc2a}
+    \caption{QMSheet3Exc2a}
+    \label{fig:QMSheet3Exc2a}
 \end{figure}
 
 
@@ -138,9 +138,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{MATSheet2Exc2b}
-    \caption{MATSheet2Exc2b}
-    \label{fig:MATSheet2Exc2b}
+    \includegraphics[scale=0.45]{QMSheet3Exc2b}
+    \caption{QMSheet3Exc2b}
+    \label{fig:QMSheet3Exc2b}
 \end{figure}
 
 
@@ -154,9 +154,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{MATSheet2Exc3}
-    \caption{MATSheet2Exc3}
-    \label{fig:MATSheet2Exc3}
+    \includegraphics[scale=0.45]{QMSheet3Exc2c}
+    \caption{QMSheet3Exc2c}
+    \label{fig:QMSheet3Exc2c}
 \end{figure}
 
 
@@ -170,9 +170,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{MATSheet2Exc4a}
-    \caption{MATSheet2Exc4a}
-    \label{fig:MATSheet2Exc4a}
+    \includegraphics[scale=0.45]{QMSheet3Exc3a}
+    \caption{QMSheet3Exc3a}
+    \label{fig:QMSheet3Exc3a}
 \end{figure}
 
 
@@ -186,9 +186,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{MATSheet2Exc4b}
-    \caption{MATSheet2Exc4b}
-    \label{fig:MATSheet2Exc4b}
+    \includegraphics[scale=0.45]{QMSheet3Exc3b}
+    \caption{QMSheet3Exc3b}
+    \label{fig:QMSheet3Exc3b}
 \end{figure}
 
 
@@ -202,9 +202,41 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{MATSheet2Exc5}
-    \caption{MATSheet2Exc5}
-    \label{fig:MATSheet2Exc5}
+    \includegraphics[scale=0.45]{QMSheet3Exc4a}
+    \caption{QMSheet3Exc4a}
+    \label{fig:QMSheet3Exc4a}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{QMSheet3Exc4b}
+    \caption{QMSheet3Exc4b}
+    \label{fig:QMSheet3Exc4b}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{QMSheet3Exc4c}
+    \caption{QMSheet3Exc4c}
+    \label{fig:QMSheet3Exc4c}
 \end{figure}
 
 
