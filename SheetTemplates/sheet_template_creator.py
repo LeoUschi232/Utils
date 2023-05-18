@@ -1,11 +1,11 @@
 from subjects import Subject
 
 subject = Subject.QM
-sheet = 3
-scale = 0.45
+sheet = 5
+scale = 0.4
 number_of_empty_lines = 10
 exercises = [
-    "1a", "1b", "1c", "2a", "2b", "2c", "3a", "3b", "4a", "4b", "4c"
+    "1a,", "1b", "1c", "2a", "2b", "3a", "3b", "3c", "3d", "3e", "3f", "3g"
 ]
 
 with open("./SheetTemplates/current_sheet_template.txt", "w") as file:
@@ -57,6 +57,17 @@ with open("./SheetTemplates/current_sheet_template.txt", "w") as file:
         "\\DeclareMathOperator{\\real}{\mathbb{R}}\n"
         "\\DeclareMathOperator{\\natur}{\mathbb{N}}\n"
         "\\DeclareMathOperator{\\E}{\\mathcal{E}}\n"
+        "\n"
+        "\\newcommand\\Bbbbone{%\n"
+        "  \\ifdefined\mathbbb%\n"
+        "    \\mathbbb{1}%\n"
+        "  \\else%\n"
+        "    \\boldsymbol{\mathbb{1}}%\n"
+        "  \\fi\n"
+        "}\n"
+        "\n"
+        "\\DeclarePairedDelimiter\\ceil{\\lceil}{\\rceil}\n"
+        "\\DeclarePairedDelimiter\\floor{\\lfloor}{\\rfloor}\n"
         "\n"
         "\n\lstset{\n"
         "    language=Python,\n"

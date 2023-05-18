@@ -46,6 +46,17 @@
 \DeclareMathOperator{\natur}{\mathbb{N}}
 \DeclareMathOperator{\E}{\mathcal{E}}
 
+\newcommand\Bbbbone{%
+  \ifdefined\mathbbb%
+    \mathbbb{1}%
+  \else%
+    \boldsymbol{\mathbb{1}}%
+  \fi
+}
+
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
 
 \lstset{
     language=Python,
@@ -64,7 +75,7 @@
     escapeinside={(*@}{@*)}
 }
 
-\title{\textbf{Quantum Mechanics} \\ \vspace{5pt} \large TUM Physics \\ QM Sheet 3}
+\title{\textbf{Quantum Mechanics} \\ \vspace{5pt} \large TUM Physics \\ QM Sheet 5}
 \author{Leonard Uscinowicz}
 
 \begin{document}
@@ -74,9 +85,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet3Exc1a}
-    \caption{QMSheet3Exc1a}
-    \label{fig:QMSheet3Exc1a}
+    \includegraphics[scale=0.4]{QMSheet5Exc1a,}
+    \caption{QMSheet5Exc1a,}
+    \label{fig:QMSheet5Exc1a,}
 \end{figure}
 
 
@@ -90,9 +101,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet3Exc1b}
-    \caption{QMSheet3Exc1b}
-    \label{fig:QMSheet3Exc1b}
+    \includegraphics[scale=0.4]{QMSheet5Exc1b}
+    \caption{QMSheet5Exc1b}
+    \label{fig:QMSheet5Exc1b}
 \end{figure}
 
 
@@ -106,9 +117,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet3Exc1c}
-    \caption{QMSheet3Exc1c}
-    \label{fig:QMSheet3Exc1c}
+    \includegraphics[scale=0.4]{QMSheet5Exc1c}
+    \caption{QMSheet5Exc1c}
+    \label{fig:QMSheet5Exc1c}
 \end{figure}
 
 
@@ -122,9 +133,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet3Exc2a}
-    \caption{QMSheet3Exc2a}
-    \label{fig:QMSheet3Exc2a}
+    \includegraphics[scale=0.4]{QMSheet5Exc2a}
+    \caption{QMSheet5Exc2a}
+    \label{fig:QMSheet5Exc2a}
 \end{figure}
 
 
@@ -138,9 +149,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet3Exc2b}
-    \caption{QMSheet3Exc2b}
-    \label{fig:QMSheet3Exc2b}
+    \includegraphics[scale=0.4]{QMSheet5Exc2b}
+    \caption{QMSheet5Exc2b}
+    \label{fig:QMSheet5Exc2b}
 \end{figure}
 
 
@@ -154,9 +165,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet3Exc2c}
-    \caption{QMSheet3Exc2c}
-    \label{fig:QMSheet3Exc2c}
+    \includegraphics[scale=0.4]{QMSheet5Exc3a}
+    \caption{QMSheet5Exc3a}
+    \label{fig:QMSheet5Exc3a}
 \end{figure}
 
 
@@ -170,9 +181,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet3Exc3a}
-    \caption{QMSheet3Exc3a}
-    \label{fig:QMSheet3Exc3a}
+    \includegraphics[scale=0.4]{QMSheet5Exc3b}
+    \caption{QMSheet5Exc3b}
+    \label{fig:QMSheet5Exc3b}
 \end{figure}
 
 
@@ -186,9 +197,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet3Exc3b}
-    \caption{QMSheet3Exc3b}
-    \label{fig:QMSheet3Exc3b}
+    \includegraphics[scale=0.4]{QMSheet5Exc3c}
+    \caption{QMSheet5Exc3c}
+    \label{fig:QMSheet5Exc3c}
 \end{figure}
 
 
@@ -202,9 +213,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet3Exc4a}
-    \caption{QMSheet3Exc4a}
-    \label{fig:QMSheet3Exc4a}
+    \includegraphics[scale=0.4]{QMSheet5Exc3d}
+    \caption{QMSheet5Exc3d}
+    \label{fig:QMSheet5Exc3d}
 \end{figure}
 
 
@@ -218,9 +229,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet3Exc4b}
-    \caption{QMSheet3Exc4b}
-    \label{fig:QMSheet3Exc4b}
+    \includegraphics[scale=0.4]{QMSheet5Exc3e}
+    \caption{QMSheet5Exc3e}
+    \label{fig:QMSheet5Exc3e}
 \end{figure}
 
 
@@ -234,9 +245,25 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.45]{QMSheet3Exc4c}
-    \caption{QMSheet3Exc4c}
-    \label{fig:QMSheet3Exc4c}
+    \includegraphics[scale=0.4]{QMSheet5Exc3f}
+    \caption{QMSheet5Exc3f}
+    \label{fig:QMSheet5Exc3f}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.4]{QMSheet5Exc3g}
+    \caption{QMSheet5Exc3g}
+    \label{fig:QMSheet5Exc3g}
 \end{figure}
 
 
