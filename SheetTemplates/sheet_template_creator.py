@@ -1,11 +1,11 @@
 from subjects import Subject
 
-subject = Subject.QM
+subject = Subject.DWT
 sheet = 5
-scale = 0.4
+scale = 0.35
 number_of_empty_lines = 10
 exercises = [
-    "1a,", "1b", "1c", "2a", "2b", "3a", "3b", "3c", "3d", "3e", "3f", "3g"
+    "T1", "T2", "T3a", "T3b", "H1a", "H1b", "H2", "H3a", "H3b", "H3c", "H4a", "H4b"
 ]
 
 with open("./SheetTemplates/current_sheet_template.txt", "w") as file:
@@ -41,6 +41,7 @@ with open("./SheetTemplates/current_sheet_template.txt", "w") as file:
         "\\usepackage[colorlinks, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}\n"
         "\\usepackage[utf8]{inputenc}\n"
         "\\usepackage[left=2cm, right=2cm, top=2cm, bottom=2.3cm]{geometry}\n"
+        "\\usepackage[bb=dsserif]{mathalpha}\n"
         "\\usepackage[document]{ragged2e}\n"
         "\n"
         "\\onehalfspacing\n"
@@ -54,9 +55,12 @@ with open("./SheetTemplates/current_sheet_template.txt", "w") as file:
         "\\DeclareMathOperator{\\ontop}{\\mathrel{\\stackrel}}\n"
         "\\DeclareMathOperator{\\equivalent}{\\qquad\\Longleftrightarrow\\qquad}\n"
         "\\DeclareMathOperator{\\means}{\\qquad\\Longrightarrow\\qquad}\n"
-        "\\DeclareMathOperator{\\real}{\mathbb{R}}\n"
-        "\\DeclareMathOperator{\\natur}{\mathbb{N}}\n"
-        "\\DeclareMathOperator{\\E}{\\mathcal{E}}\n"
+        "\\DeclareMathOperator{\\real}{\\mathbb{R}}\n"
+        "\\DeclareMathOperator{\\realint}{\\int\\displaylimits_{\\real}}\n"
+        "\\DeclareMathOperator{\\natur}{\\mathbb{N}}\n"
+        "\\DeclareMathOperator{\\E}{\\mathb{E}}\n"
+        "\\DeclareMathOperator{\\pr}{\\mathrm{Pr}}\n"
+        "\\DeclareMathOperator{\\und}{\\mathrm{und}}\n"
         "\n"
         "\\newcommand\\Bbbbone{%\n"
         "  \\ifdefined\mathbbb%\n"

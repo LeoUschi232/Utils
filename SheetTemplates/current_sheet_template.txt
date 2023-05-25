@@ -29,6 +29,7 @@
 \usepackage[colorlinks, linkcolor=black, citecolor=black, urlcolor=black]{hyperref}
 \usepackage[utf8]{inputenc}
 \usepackage[left=2cm, right=2cm, top=2cm, bottom=2.3cm]{geometry}
+\usepackage[bb=dsserif]{mathalpha}
 \usepackage[document]{ragged2e}
 
 \onehalfspacing
@@ -75,7 +76,7 @@
     escapeinside={(*@}{@*)}
 }
 
-\title{\textbf{Quantum Mechanics} \\ \vspace{5pt} \large TUM Physics \\ QM Sheet 5}
+\title{\textbf{Discrete Probability Theory} \\ \vspace{5pt} \large TUM Informatics \\ DWT Sheet 5}
 \author{Leonard Uscinowicz}
 
 \begin{document}
@@ -85,9 +86,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{QMSheet5Exc1a,}
-    \caption{QMSheet5Exc1a,}
-    \label{fig:QMSheet5Exc1a,}
+    \includegraphics[scale=0.35]{DWTSheet5ExcT1}
+    \caption{DWTSheet5ExcT1}
+    \label{fig:DWTSheet5ExcT1}
 \end{figure}
 
 
@@ -101,9 +102,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{QMSheet5Exc1b}
-    \caption{QMSheet5Exc1b}
-    \label{fig:QMSheet5Exc1b}
+    \includegraphics[scale=0.35]{DWTSheet5ExcT2}
+    \caption{DWTSheet5ExcT2}
+    \label{fig:DWTSheet5ExcT2}
 \end{figure}
 
 
@@ -117,9 +118,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{QMSheet5Exc1c}
-    \caption{QMSheet5Exc1c}
-    \label{fig:QMSheet5Exc1c}
+    \includegraphics[scale=0.35]{DWTSheet5ExcT3a}
+    \caption{DWTSheet5ExcT3a}
+    \label{fig:DWTSheet5ExcT3a}
 \end{figure}
 
 
@@ -133,9 +134,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{QMSheet5Exc2a}
-    \caption{QMSheet5Exc2a}
-    \label{fig:QMSheet5Exc2a}
+    \includegraphics[scale=0.35]{DWTSheet5ExcT3b}
+    \caption{DWTSheet5ExcT3b}
+    \label{fig:DWTSheet5ExcT3b}
 \end{figure}
 
 
@@ -149,9 +150,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{QMSheet5Exc2b}
-    \caption{QMSheet5Exc2b}
-    \label{fig:QMSheet5Exc2b}
+    \includegraphics[scale=0.35]{DWTSheet5ExcH1a}
+    \caption{DWTSheet5ExcH1a}
+    \label{fig:DWTSheet5ExcH1a}
 \end{figure}
 
 
@@ -165,9 +166,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{QMSheet5Exc3a}
-    \caption{QMSheet5Exc3a}
-    \label{fig:QMSheet5Exc3a}
+    \includegraphics[scale=0.35]{DWTSheet5ExcH1b}
+    \caption{DWTSheet5ExcH1b}
+    \label{fig:DWTSheet5ExcH1b}
 \end{figure}
 
 
@@ -181,9 +182,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{QMSheet5Exc3b}
-    \caption{QMSheet5Exc3b}
-    \label{fig:QMSheet5Exc3b}
+    \includegraphics[scale=0.35]{DWTSheet5ExcH2}
+    \caption{DWTSheet5ExcH2}
+    \label{fig:DWTSheet5ExcH2}
 \end{figure}
 
 
@@ -197,9 +198,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{QMSheet5Exc3c}
-    \caption{QMSheet5Exc3c}
-    \label{fig:QMSheet5Exc3c}
+    \includegraphics[scale=0.35]{DWTSheet5ExcH3a}
+    \caption{DWTSheet5ExcH3a}
+    \label{fig:DWTSheet5ExcH3a}
 \end{figure}
 
 
@@ -213,9 +214,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{QMSheet5Exc3d}
-    \caption{QMSheet5Exc3d}
-    \label{fig:QMSheet5Exc3d}
+    \includegraphics[scale=0.35]{DWTSheet5ExcH3b}
+    \caption{DWTSheet5ExcH3b}
+    \label{fig:DWTSheet5ExcH3b}
 \end{figure}
 
 
@@ -229,9 +230,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{QMSheet5Exc3e}
-    \caption{QMSheet5Exc3e}
-    \label{fig:QMSheet5Exc3e}
+    \includegraphics[scale=0.35]{DWTSheet5ExcH3c}
+    \caption{DWTSheet5ExcH3c}
+    \label{fig:DWTSheet5ExcH3c}
 \end{figure}
 
 
@@ -245,9 +246,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{QMSheet5Exc3f}
-    \caption{QMSheet5Exc3f}
-    \label{fig:QMSheet5Exc3f}
+    \includegraphics[scale=0.35]{DWTSheet5ExcH4a}
+    \caption{DWTSheet5ExcH4a}
+    \label{fig:DWTSheet5ExcH4a}
 \end{figure}
 
 
@@ -261,9 +262,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.4]{QMSheet5Exc3g}
-    \caption{QMSheet5Exc3g}
-    \label{fig:QMSheet5Exc3g}
+    \includegraphics[scale=0.35]{DWTSheet5ExcH4b}
+    \caption{DWTSheet5ExcH4b}
+    \label{fig:DWTSheet5ExcH4b}
 \end{figure}
 
 
