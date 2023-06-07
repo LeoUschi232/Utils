@@ -44,9 +44,10 @@
 \DeclareMathOperator{\equivalent}{\qquad\Longleftrightarrow\qquad}
 \DeclareMathOperator{\means}{\qquad\Longrightarrow\qquad}
 \DeclareMathOperator{\real}{\mathbb{R}}
-\DeclareMathOperator{\realint}{\int\displaylimits_{\real}}
+\DeclareMathOperator{\realint}{\int_{\real}}
 \DeclareMathOperator{\natur}{\mathbb{N}}
-\DeclareMathOperator{\E}{\mathb{E}}
+\DeclareMathOperator{\E}{\mathbb{E}}
+\DeclareMathOperator{\V}{\mathrm{Var}}
 \DeclareMathOperator{\pr}{\mathrm{Pr}}
 \DeclareMathOperator{\und}{\mathrm{und}}
 

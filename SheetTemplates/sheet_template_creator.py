@@ -59,6 +59,7 @@ with open("./SheetTemplates/current_sheet_template.txt", "w") as file:
         "\\DeclareMathOperator{\\realint}{\\int_{\\real}}\n"
         "\\DeclareMathOperator{\\natur}{\\mathbb{N}}\n"
         "\\DeclareMathOperator{\\E}{\\mathbb{E}}\n"
+        "\\DeclareMathOperator{\\V}{\\mathrm{Var}}\n"
         "\\DeclareMathOperator{\\pr}{\\mathrm{Pr}}\n"
         "\\DeclareMathOperator{\\und}{\\mathrm{und}}\n"
         "\n"
