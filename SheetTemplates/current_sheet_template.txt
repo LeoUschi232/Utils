@@ -44,8 +44,11 @@
 \DeclareMathOperator{\equivalent}{\qquad\Longleftrightarrow\qquad}
 \DeclareMathOperator{\means}{\qquad\Longrightarrow\qquad}
 \DeclareMathOperator{\real}{\mathbb{R}}
+\DeclareMathOperator{\realint}{\int\displaylimits_{\real}}
 \DeclareMathOperator{\natur}{\mathbb{N}}
-\DeclareMathOperator{\E}{\mathcal{E}}
+\DeclareMathOperator{\E}{\mathb{E}}
+\DeclareMathOperator{\pr}{\mathrm{Pr}}
+\DeclareMathOperator{\und}{\mathrm{und}}
 
 \newcommand\Bbbbone{%
   \ifdefined\mathbbb%
@@ -76,7 +79,7 @@
     escapeinside={(*@}{@*)}
 }
 
-\title{\textbf{Discrete Probability Theory} \\ \vspace{5pt} \large TUM Informatics \\ DWT Sheet 5}
+\title{\textbf{Quantum Mechanics} \\ \vspace{5pt} \large TUM Physics \\ QM Sheet 8}
 \author{Leonard Uscinowicz}
 
 \begin{document}
@@ -86,9 +89,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{DWTSheet5ExcT1}
-    \caption{DWTSheet5ExcT1}
-    \label{fig:DWTSheet5ExcT1}
+    \includegraphics[scale=0.35]{QMSheet8Exc1a}
+    \caption{QMSheet8Exc1a}
+    \label{fig:QMSheet8Exc1a}
 \end{figure}
 
 
@@ -102,9 +105,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{DWTSheet5ExcT2}
-    \caption{DWTSheet5ExcT2}
-    \label{fig:DWTSheet5ExcT2}
+    \includegraphics[scale=0.35]{QMSheet8Exc1b}
+    \caption{QMSheet8Exc1b}
+    \label{fig:QMSheet8Exc1b}
 \end{figure}
 
 
@@ -118,9 +121,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{DWTSheet5ExcT3a}
-    \caption{DWTSheet5ExcT3a}
-    \label{fig:DWTSheet5ExcT3a}
+    \includegraphics[scale=0.35]{QMSheet8Exc1c}
+    \caption{QMSheet8Exc1c}
+    \label{fig:QMSheet8Exc1c}
 \end{figure}
 
 
@@ -134,9 +137,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{DWTSheet5ExcT3b}
-    \caption{DWTSheet5ExcT3b}
-    \label{fig:DWTSheet5ExcT3b}
+    \includegraphics[scale=0.35]{QMSheet8Exc2a}
+    \caption{QMSheet8Exc2a}
+    \label{fig:QMSheet8Exc2a}
 \end{figure}
 
 
@@ -150,9 +153,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{DWTSheet5ExcH1a}
-    \caption{DWTSheet5ExcH1a}
-    \label{fig:DWTSheet5ExcH1a}
+    \includegraphics[scale=0.35]{QMSheet8Exc2b}
+    \caption{QMSheet8Exc2b}
+    \label{fig:QMSheet8Exc2b}
 \end{figure}
 
 
@@ -166,9 +169,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{DWTSheet5ExcH1b}
-    \caption{DWTSheet5ExcH1b}
-    \label{fig:DWTSheet5ExcH1b}
+    \includegraphics[scale=0.35]{QMSheet8Exc2c}
+    \caption{QMSheet8Exc2c}
+    \label{fig:QMSheet8Exc2c}
 \end{figure}
 
 
@@ -182,9 +185,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{DWTSheet5ExcH2}
-    \caption{DWTSheet5ExcH2}
-    \label{fig:DWTSheet5ExcH2}
+    \includegraphics[scale=0.35]{QMSheet8Exc3a}
+    \caption{QMSheet8Exc3a}
+    \label{fig:QMSheet8Exc3a}
 \end{figure}
 
 
@@ -198,73 +201,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{DWTSheet5ExcH3a}
-    \caption{DWTSheet5ExcH3a}
-    \label{fig:DWTSheet5ExcH3a}
-\end{figure}
-
-
-
-
-
-
-
-
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.35]{DWTSheet5ExcH3b}
-    \caption{DWTSheet5ExcH3b}
-    \label{fig:DWTSheet5ExcH3b}
-\end{figure}
-
-
-
-
-
-
-
-
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.35]{DWTSheet5ExcH3c}
-    \caption{DWTSheet5ExcH3c}
-    \label{fig:DWTSheet5ExcH3c}
-\end{figure}
-
-
-
-
-
-
-
-
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.35]{DWTSheet5ExcH4a}
-    \caption{DWTSheet5ExcH4a}
-    \label{fig:DWTSheet5ExcH4a}
-\end{figure}
-
-
-
-
-
-
-
-
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.35]{DWTSheet5ExcH4b}
-    \caption{DWTSheet5ExcH4b}
-    \label{fig:DWTSheet5ExcH4b}
+    \includegraphics[scale=0.35]{QMSheet8Exc3b}
+    \caption{QMSheet8Exc3b}
+    \label{fig:QMSheet8Exc3b}
 \end{figure}
 
 
