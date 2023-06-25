@@ -42,6 +42,7 @@
 \DeclareMathOperator{\tacticalAnd}{\qquad\wedge\qquad}
 \DeclareMathOperator{\ontop}{\mathrel{\stackrel}}
 \DeclareMathOperator{\equivalent}{\qquad\Longleftrightarrow\qquad}
+\DeclareMathOperator{\equi}{\Longleftrightarrow\qquad}
 \DeclareMathOperator{\means}{\qquad\Longrightarrow\qquad}
 \DeclareMathOperator{\real}{\mathbb{R}}
 \DeclareMathOperator{\realint}{\int_{\real}}
@@ -49,7 +50,7 @@
 \DeclareMathOperator{\E}{\mathbb{E}}
 \DeclareMathOperator{\V}{\mathrm{Var}}
 \DeclareMathOperator{\pr}{\mathrm{Pr}}
-\DeclareMathOperator{\und}{\mathrm{und}}
+\DeclareMathOperator{\und}{\qquad\mathrm{und}}\qquad
 
 \newcommand\Bbbbone{%
   \ifdefined\mathbbb%
@@ -80,7 +81,7 @@
     escapeinside={(*@}{@*)}
 }
 
-\title{\textbf{Quantum Mechanics} \\ \vspace{5pt} \large TUM Physics \\ QM Sheet 8}
+\title{\textbf{Discrete Probability Theory} \\ \vspace{5pt} \large TUM Informatics \\ DWT Sheet 9}
 \author{Leonard Uscinowicz}
 
 \begin{document}
@@ -90,9 +91,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{QMSheet8Exc1a}
-    \caption{QMSheet8Exc1a}
-    \label{fig:QMSheet8Exc1a}
+    \includegraphics[scale=0.35]{DWTSheet9ExcT1a}
+    \caption{DWTSheet9ExcT1a}
+    \label{fig:DWTSheet9ExcT1a}
 \end{figure}
 
 
@@ -106,9 +107,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{QMSheet8Exc1b}
-    \caption{QMSheet8Exc1b}
-    \label{fig:QMSheet8Exc1b}
+    \includegraphics[scale=0.35]{DWTSheet9ExcT1b}
+    \caption{DWTSheet9ExcT1b}
+    \label{fig:DWTSheet9ExcT1b}
 \end{figure}
 
 
@@ -122,9 +123,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{QMSheet8Exc1c}
-    \caption{QMSheet8Exc1c}
-    \label{fig:QMSheet8Exc1c}
+    \includegraphics[scale=0.35]{DWTSheet9ExcT2}
+    \caption{DWTSheet9ExcT2}
+    \label{fig:DWTSheet9ExcT2}
 \end{figure}
 
 
@@ -138,9 +139,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{QMSheet8Exc2a}
-    \caption{QMSheet8Exc2a}
-    \label{fig:QMSheet8Exc2a}
+    \includegraphics[scale=0.35]{DWTSheet9ExcT3a}
+    \caption{DWTSheet9ExcT3a}
+    \label{fig:DWTSheet9ExcT3a}
 \end{figure}
 
 
@@ -154,9 +155,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{QMSheet8Exc2b}
-    \caption{QMSheet8Exc2b}
-    \label{fig:QMSheet8Exc2b}
+    \includegraphics[scale=0.35]{DWTSheet9ExcT3b}
+    \caption{DWTSheet9ExcT3b}
+    \label{fig:DWTSheet9ExcT3b}
 \end{figure}
 
 
@@ -170,9 +171,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{QMSheet8Exc2c}
-    \caption{QMSheet8Exc2c}
-    \label{fig:QMSheet8Exc2c}
+    \includegraphics[scale=0.35]{DWTSheet9ExcH1a}
+    \caption{DWTSheet9ExcH1a}
+    \label{fig:DWTSheet9ExcH1a}
 \end{figure}
 
 
@@ -186,9 +187,9 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{QMSheet8Exc3a}
-    \caption{QMSheet8Exc3a}
-    \label{fig:QMSheet8Exc3a}
+    \includegraphics[scale=0.35]{DWTSheet9ExcH1b}
+    \caption{DWTSheet9ExcH1b}
+    \label{fig:DWTSheet9ExcH1b}
 \end{figure}
 
 
@@ -202,9 +203,105 @@
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.35]{QMSheet8Exc3b}
-    \caption{QMSheet8Exc3b}
-    \label{fig:QMSheet8Exc3b}
+    \includegraphics[scale=0.35]{DWTSheet9ExcH2a}
+    \caption{DWTSheet9ExcH2a}
+    \label{fig:DWTSheet9ExcH2a}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.35]{DWTSheet9ExcH2b}
+    \caption{DWTSheet9ExcH2b}
+    \label{fig:DWTSheet9ExcH2b}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.35]{DWTSheet9ExcH2c}
+    \caption{DWTSheet9ExcH2c}
+    \label{fig:DWTSheet9ExcH2c}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.35]{DWTSheet9ExcH3}
+    \caption{DWTSheet9ExcH3}
+    \label{fig:DWTSheet9ExcH3}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.35]{DWTSheet9ExcH4a}
+    \caption{DWTSheet9ExcH4a}
+    \label{fig:DWTSheet9ExcH4a}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.35]{DWTSheet9ExcH4b}
+    \caption{DWTSheet9ExcH4b}
+    \label{fig:DWTSheet9ExcH4b}
+\end{figure}
+
+
+
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.35]{DWTSheet9ExcH4c}
+    \caption{DWTSheet9ExcH4c}
+    \label{fig:DWTSheet9ExcH4c}
 \end{figure}
 
 

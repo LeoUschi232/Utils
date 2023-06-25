@@ -1,11 +1,11 @@
 from subjects import Subject
 
-subject = Subject.QM
-sheet = 8
+subject = Subject.DWT
+sheet = 9
 scale = 0.35
 number_of_empty_lines = 10
 exercises = [
-    "1a", "1b", "1c", "2a", "2b", "2c", "3a", "3b"
+    "T1a", "T1b", "T2", "T3a", "T3b", "H1a", "H1b", "H2a", "H2b", "H2c", "H3", "H4a", "H4b", "H4c"
 ]
 
 with open("./SheetTemplates/current_sheet_template.txt", "w") as file:
@@ -54,6 +54,7 @@ with open("./SheetTemplates/current_sheet_template.txt", "w") as file:
         "\\DeclareMathOperator{\\tacticalAnd}{\\qquad\\wedge\\qquad}\n"
         "\\DeclareMathOperator{\\ontop}{\\mathrel{\\stackrel}}\n"
         "\\DeclareMathOperator{\\equivalent}{\\qquad\\Longleftrightarrow\\qquad}\n"
+        "\\DeclareMathOperator{\\equi}{\\Longleftrightarrow\\qquad}\n"
         "\\DeclareMathOperator{\\means}{\\qquad\\Longrightarrow\\qquad}\n"
         "\\DeclareMathOperator{\\real}{\\mathbb{R}}\n"
         "\\DeclareMathOperator{\\realint}{\\int_{\\real}}\n"
@@ -61,7 +62,7 @@ with open("./SheetTemplates/current_sheet_template.txt", "w") as file:
         "\\DeclareMathOperator{\\E}{\\mathbb{E}}\n"
         "\\DeclareMathOperator{\\V}{\\mathrm{Var}}\n"
         "\\DeclareMathOperator{\\pr}{\\mathrm{Pr}}\n"
-        "\\DeclareMathOperator{\\und}{\\mathrm{und}}\n"
+        "\\DeclareMathOperator{\\und}{\\qquad\\mathrm{und}\\qquad}\n"
         "\n"
         "\\newcommand\\Bbbbone{%\n"
         "  \\ifdefined\mathbbb%\n"
